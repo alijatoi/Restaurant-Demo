@@ -1,4 +1,6 @@
 # Restaurant-Demo
-## Retrofit
-## Room
-## MVVM
+### List of Restaurants ,fetched via Api. User can mark favourite restaurants.
+
+### Retrofit
+### Room
+### MVVM
