@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RoomMvvm</string>
+    <string name="new_venues">New Venues</string>
+    <string name="beef_bacon_cheese_love">Beef + Bacon + Cheese = Love</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="image">image</string>
+    <string name="fav">fav</string>
+</resources>
