@@ -28,8 +28,27 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         recyclerView = findViewById(R.id.recyclerview)
         shimmerLayout = findViewById(R.id.shimmer)
-
+//shimmer is layout animation, that is running while data is being fetched/filled
         shimmerLayout.startShimmer()
+
+        if (Network.checkConnectivity(this))
+        {
+            showRestaurants()
+        }
+
+        else
+        {
+            shimmerLayout.stopShimmer()
+            shimmerLayout.visibility = View.GONE
+            Toast.makeText(this,"Sorry, Please Connect your Phone with Internet",Toast.LENGTH_LONG).show()
+        }
+
+
+    }
+
+
+    private fun showRestaurants() {
+
         val restaurantRepository = RestaurantRepository(applicationContext)
 
 
@@ -59,7 +78,6 @@ class MainActivity : AppCompatActivity() {
         restaurantViewModel.restaurants()
 
     }
-
 
 }
 
