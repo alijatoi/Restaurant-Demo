@@ -1,6 +1,6 @@
 # Restaurant-Application
-### List of Restaurants 
-fetched via Api. User can mark favourite restaurants.
+### List of Restaurants Available in Particular Location.
+### Using Latitude & Longitude or City Name.
 
 #### Components Used : 
 
