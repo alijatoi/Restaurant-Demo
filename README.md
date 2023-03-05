@@ -3,7 +3,7 @@
 List of Restaurants Available in Particular Location, Using User Current Location or City Name.
 
 #### Functionalities : 
--> With this app, User can look for near by restaurants, and mark favourite or unfavourite restaurant. 
+-> With this app, User can look for near by restaurants, and mark as favourite which will be stored in local storage (using Room) 
 
 
 #### Components Used : 
