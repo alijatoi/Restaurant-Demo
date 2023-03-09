@@ -1,5 +1,5 @@
 # Restaurant-Application
-(Currently in Process)
+(Currently in Prgress)
 List of Restaurants Available in Particular Location, Using User Current Location or City Name.
 
 #### Functionalities : 
