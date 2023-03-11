@@ -6,7 +6,7 @@ List of Restaurants Available in Particular Location, Using User Current Locatio
 -> With this app, User can look for near by restaurants, and mark as favourite which will be stored in local storage (using Room) 
 
 
-#### Components Used : 
+#### Tech Stack : 
 
 #### Retrofit : For getting data from Api
 #### Room     : For Storage of Favourite or Unfavourite Restaurants ( Marked By User)
